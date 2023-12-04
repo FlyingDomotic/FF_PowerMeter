@@ -1,0 +1,65 @@
+{
+    "groups": [
+        {
+            "title": "First group of variables",
+            "entities": [
+                {
+                    "name": "udpPort",
+                    "title": "UDP port to send data to "
+                },
+                {
+                    "name": "udpFlag",
+                    "title": "Send data every second ",
+                    "attributes": {
+                        "type": "checkbox"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Domoticz Indexes",
+            "entities": [
+                {
+                    "name": "domoticzPowerIdx",
+                    "title": "IDX to send power to ",
+                    "attributes": {
+                        "type": "number",
+                        "min": 0
+                    }
+                },
+                {
+                    "name": "domoticzVoltageIdx",
+                    "title": "IDX to send voltage to ",
+                    "attributes": {
+                        "type": "number",
+                        "min": 0
+                    }
+                },
+                {
+                    "name": "domoticzCurrentIdx",
+                    "title": "IDX to send current to ",
+                    "attributes": {
+                        "type": "number",
+                        "min": 0
+                    }
+                },
+                {
+                    "name": "domoticzFrequencyIdx",
+                    "title": "IDX to send frequency to ",
+                    "attributes": {
+                        "type": "number",
+                        "min": 0
+                    }
+                },
+                {
+                    "name": "domoticzCosPhyIdx",
+                    "title": "IDX to send cos Phy to ",
+                    "attributes": {
+                        "type": "number",
+                        "min": 0
+                    }
+                }
+            ]
+        }
+    ]
+}
